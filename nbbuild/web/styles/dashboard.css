@@ -1,0 +1,25 @@
+.card{
+  transition: all 0.2s linear;
+}
+
+.img-container{
+  overflow: hidden;
+}
+
+.card img{
+  aspect-ratio: 1;
+  filter : saturate(85%);
+  transition: all 0.2s linear;
+}
+
+
+.card:hover{
+  box-shadow: 3px 3px 100px 10px rgba(0, 0, 0, 0.32);
+  
+}
+
+.card:hover img{
+  filter : saturate(125%);
+  transform:scale(1.05);
+  
+}

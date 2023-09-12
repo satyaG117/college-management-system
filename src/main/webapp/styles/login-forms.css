@@ -1,0 +1,6 @@
+@charset "UTF-8";
+body{
+	background: rgb(0,14,36);
+	background: linear-gradient(73deg, rgba(0,14,36,1) 1%, rgba(6,32,68,1) 20%, rgba(10,64,129,1) 46%, rgba(122,24,198,1) 71%, rgba(242,0,255,1) 92%) no-repeat fixed center;
+	background-size:cover;
+}
